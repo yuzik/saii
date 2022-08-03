@@ -1,0 +1,1236 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body {
+	margin:0px;
+	padding:0px;
+}
+img { border:none; }
+a { outline:none; }
+
+#MainWrapper {
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}
+
+#RightNav {
+	position:fixed;
+	right:0px;
+	top:75px;
+	z-index:999;
+	xwidth:255px;
+	width:80px;
+	height:224px;
+	background-image:url(../images/rightNav/rightNav_bg.png);
+	background-repeat:no-repeat;
+	font-family: 'interstate-regularcondensedRg';
+	font-size:18px;
+}
+#RightNav ul {
+	position:absolute;
+	right:-6px;
+	float:right;
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+}
+#RightNav ul li {
+	position:relative;
+	overflow:hidden;
+	xwidth:246px;
+	width:70px;
+	height:62px;
+	background-color:#cc252c;
+	margin-bottom:4px;
+	background-position:left top;
+}
+#RightNav ul li:first-child {
+	margin-top:18px;
+}
+#RightNav ul li:hover {
+	background-position:left bottom;
+}
+
+#RightNav ul li.Referanslar {
+	background-image:url(../images/rightNav/referanslarimiz_btn.png);
+}
+#RightNav ul li.Urunler {
+	background-image:url(../images/rightNav/urunler_btn.png);
+}
+#RightNav ul li.Harita {
+	background-image:url(../images/rightNav/harita_btn.png);
+}
+
+#RightNav ul li.Referanslar-tr {
+	background-image:url(../images/rightNav/referanslarimiz-tr_btn.png);
+}
+#RightNav ul li.Urunler-tr {
+	background-image:url(../images/rightNav/urunler-tr_btn.png);
+}
+#RightNav ul li.Harita-tr {
+	background-image:url(../images/rightNav/harita-tr_btn.png);
+}
+
+#RightNav ul li a{
+	display:block;
+	width:246px;
+	height:62px;
+	text-decoration:none;
+}
+
+/*# HOME #*/
+
+#HomeWrapper {
+	overflow:hidden;
+	position:relative;
+	width:100%;
+	height:622px;
+	background-image:url(../images/home_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+
+#HomeFooter {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	width:100%;
+	height:55px;
+	background-color:#3e557f;
+}
+
+#HomeFooterContainer {
+	width:1047px;
+	height:57px;
+	margin:0px auto;
+}
+
+#HomeFooterAddress {
+	width:328px;
+	height:57px;
+	float:left;
+	padding-top:6px;
+	padding-left:12px;
+	border-left:13px solid #cc252c;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#ffffff;
+}
+
+#HomeFooterTelephoneFax {
+	width:237px;
+	height:57px;
+	float:left;
+	padding-top:16px;
+	padding-left:17px;
+	margin-left:20px;
+	border-left:1px solid #cc252c;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#ffffff;
+}
+#Header {
+	overflow:hidden;
+	position:relative;
+	width:100%;
+	height:80px;
+	background-image:url(../images/header_bg.png);
+	background-repeat:repeat-x;
+}
+
+#CompanyLogo {
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+#HeaderContainer {
+	overflow:hidden;
+	width:990px;
+	margin:0px auto;
+	position: relative;
+}
+.LinkedinBtn {
+	display:block;
+	position:absolute;
+	  right: 0px;
+  top: 46px;
+}
+
+#HomeSlides {
+	width:970px;
+	margin:0px auto;
+	padding-top:200px;
+}
+
+#slides {
+	overflow:;
+	width:490px;
+}
+
+.slides_container {
+	width:693px;
+	display:none;
+}
+
+.slides_container div {
+	width:490px;
+	height:240px;
+	display:block;
+}
+
+.pagination {
+	position:relative;
+	top:-15px;
+	right:2px;
+	float:right;
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+
+.pagination li {
+	float:left;
+	margin-left:5px;
+	margin-top:15px;
+	background-color:#c2252c;
+}
+.pagination li:first-child {
+	margin-left:0px;
+}
+
+.pagination a {
+	display:block;
+	color:#FFF;
+	text-decoration:none;
+	padding:2px 6px 2px 6px;
+}
+
+.pagination .current a {
+	color:white;
+}
+
+
+#TopMenu {
+	overflow:hidden;
+	float:right;
+	height:75px;
+	margin-right:36px;
+	padding-top:48px;
+	font-family: 'avantgardeturkregular';
+	font-size:15px;
+}
+
+#TopMenu ul {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+#TopMenu ul li {
+	float:left;
+	margin-left:20px;
+}
+#TopMenu ul li.Language a {
+	color:#cc252c;
+}
+#TopMenu ul li a{
+	display:block;
+	text-decoration:none;
+	color:#353232;
+	padding-bottom:2px;
+}
+#TopMenu ul li a:hover {
+	border-bottom:6px solid #cc252c;
+}
+
+
+/*# CONTENT WRAPPER #*/
+
+#ContentWrapper {
+	width:100%;
+	height:4070px;
+	background-image:url(../images/contentWrapper_bg.jpg);
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+
+#World {
+	position:relative;
+	z-index:999;
+	top:5px;
+	width:767px;
+	margin:0px auto;
+}
+
+#ContentContainer {
+	position:relative;
+	width:1px;
+	xwidth:100%;
+	height:1014px;
+	visibility:hidden;
+	background-image:url(../images/hakkimizda_bg.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+	margin:-215px auto 0px;
+}
+
+#HizmetlerimizContainer {
+	position:relative;
+	margin-top:273px;
+	width:1px;
+	xwidth:100%;
+	height:555px;
+	visibility:hidden;
+	background-image:url(../images/hizmetlerimiz_bg.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+	margin:494px auto 0px;
+}
+
+/*# URUNLER #*/
+
+#UrunlerWrapper {
+	position:relative;
+	width:100%;
+	visibility:hidden;
+	height:0px;
+	xheight:759px;
+	background-image:url(../images/urunler_bg.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+	margin:405px auto 0px;
+}
+#UrunlerContainer {
+	overflow:hidden;
+	position:relative;
+	overflow:hidden;
+	width:1286px;
+	height:759px;
+	margin:0px auto;
+}
+#UrunlerContainer .Title {
+	text-align:center;
+	color:#FFFFFF;
+	font-family: 'avantgardeturkbregular';
+	font-size:49px;
+	padding-top:30px;
+}
+
+#UrunlerList {
+	width:913px;
+	margin:0px auto;
+}
+.UrunRow {
+	width:913px;
+	height:117px;
+	border-top:2px solid #708081;
+}
+.UrunRow:first-child {
+	border-top:none;
+}
+
+.UrunItem {
+	position:relative;
+	z-index:1;
+	float:left;
+	width:400px;
+	font-family:Arial, Helvetica, sans-serif;
+	xfont-size:15px;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFFFFF;
+	cursor:pointer;
+	margin-left: 53px !important;
+}
+.UrunRow .UrunItem:first-child {
+}
+.UrunItem .Icon {
+	float:left;
+	background-position:center top;
+	background-repeat:no-repeat;
+	width: 97px !important;
+}
+.UrunItem:hover .Icon {
+	background-position:center bottom;
+}
+.UrunItem .Text {
+	color:#FFFFFF;
+	margin-left: 29px !important;
+	width: 219px !important;
+}
+
+.UrunItem:hover .Text {
+	color:#ce1717;
+}
+
+.UrunItem.Endustriyel {
+	margin-left:75px;
+}
+.UrunItem.Endustriyel .Icon {
+	width:62px;
+	height:61px;
+	background-image:url(../images/icons/endustriyel-yag-katkilari.png);
+	margin-top:40px;
+}
+.UrunItem.Endustriyel .Text {
+	float:left;
+	margin-top:65px;
+	margin-left:45px;
+}
+
+.UrunItem.Akaryakit {
+	margin-left:108px;
+}
+.UrunItem.Akaryakit .Icon {
+	width:56px;
+	height:61px;
+	background-image:url(../images/icons/sentetik-ve-baz-yaglar.png);
+	margin-top:40px;
+}
+.UrunItem.Akaryakit .Text {
+	float:left;
+	width:200px;
+	margin-top:57px;
+	margin-left:36px;
+}
+
+.UrunItem.Otomotiv {
+	margin-left:60px;
+}
+.UrunItem.Otomotiv .Icon {
+	width:96px;
+	height:57px;
+	background-image:url(../images/icons/otomotiv-yag-katkilari.png);
+	margin-top:40px;
+}
+.UrunItem.Otomotiv .Text {
+	float:left;
+	width:200px;
+	margin-top:65px;
+	margin-left:26px;
+}
+
+.UrunItem.Marker {
+	margin-left:119px;
+}
+.UrunItem.Marker .Icon {
+	width:53px;
+	height:56px;
+	background-image:url(../images/icons/akaryakit-biyodizel-katkilari.png);
+	margin-top:41px;
+}
+.UrunItem.Marker .Text {
+	float:left;
+	width:200px;
+	margin-top:56px;
+	margin-left:45px;
+}
+
+.UrunItem.Rafineri {
+	margin-left:66px;
+}
+.UrunItem.Rafineri .Icon {
+	width:76px;
+	height:64px;
+	background-image:url(../images/icons/rafineri-kimyasallari.png);
+	margin-top:28px;
+}
+.UrunItem.Rafineri .Text {
+	float:left;
+	width:200px;
+	margin-top:58px;
+	margin-left:42px;
+}
+
+.UrunItem.Sentetik {
+	margin-left:116px;
+}
+.UrunItem.Sentetik .Icon {
+	width:42px;
+	height:80px;
+	background-image:url(../images/icons/marker-ve-lubrikant-boyalari.png);
+	margin-top:28px;
+}
+.UrunItem.Sentetik .Text {
+	float:left;
+	width:200px;
+	margin-top:58px;
+	margin-left:54px;
+}
+
+.UrunItem.Sondaj {
+	margin-left:66px;
+}
+.UrunItem.Sondaj .Icon {
+	width:80px;
+	height:70px;
+	background-image:url(../images/icons/sondaj-kimyasallari.png);
+	margin-top:28px;
+}
+.UrunItem.Sondaj .Text {
+	float:left;
+	width:200px;
+	margin-top:58px;
+	margin-left:38px;
+}
+
+.UrunItem.BitmisUrunler {
+	margin-left:114px;
+}
+.UrunItem.BitmisUrunler .Icon {
+	width:62px;
+	height:69px;
+	background-image:url(../images/icons/bitmis-urunler.png);
+	margin-top:28px;
+}
+.UrunItem.BitmisUrunler .Text {
+	float:left;
+	width:200px;
+	margin-top:58px;
+	margin-left:38px;
+}
+
+.UrunItem.OzelKimyasal {
+	margin-left:83px;
+}
+.UrunItem.OzelKimyasal .Icon {
+	width:46px;
+	height:84px;
+	background-image:url(../images/icons/ozel-kimyasallar.png);
+	margin-top:28px;
+}
+.UrunItem.OzelKimyasal .Text {
+	float:left;
+	width:200px;
+	margin-top:58px;
+	margin-left:58px;
+}
+
+.UrunItem.Savunma {
+	margin-left:90px;
+}
+.UrunItem.Savunma .Icon {
+	width:78px;
+	height:72px;
+	background-image:url(../images/icons/savunma-sanayi-icin-yaglar.png);
+	margin-top:28px;
+}
+.UrunItem.Savunma .Text {
+	float:left;
+	width:200px;
+	margin-top:58px;
+	margin-left:29px;
+}
+
+.UrunDetay {
+	display:none;
+	position:absolute;
+	left:0px;
+	top:206px;
+	opacity:1;
+	z-index:10;
+	width:1286px;
+	height:343px;
+	margin:0px auto;
+	background-image:url(../images/productHover_bg.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+.UrunDetayClose {
+	position:absolute;
+	right:150px;
+	top:0px;
+	display:block;
+	width:40px;
+	height:32px;
+	xbackground-color:#0000FF;
+}
+.chart { background-image:url(../images/chart_bg.jpg)}
+.UrunDetayContent {
+	width:720px;
+	height:278px;
+	margin:0px auto;
+	position:relative;
+	top:50px;
+}
+
+.UrunDetayLeft {
+	width:282px;
+	float:left;
+	margin-right:35px;
+	padding-top:50px;
+	padding-left:10px;
+
+}
+
+#UrunDetayLeftDrilling {
+	width:273px;
+	float:left;
+	position:relative;
+	top:55px;
+	right:106px;
+}
+
+#EndustriyelYagKatkilariImg {
+	height:61px;
+	margin-top:22px;
+	background-image:url(../images/icons/endustriyel-yag-katkilari.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#OtomotivYagKatkilariImg {
+	height:57px;
+	margin-top:22px;
+	background-image:url(../images/icons/otomotiv-yag-katkilari.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+
+
+#RafineriKimyasallariImg {
+	height:64px;
+	margin-top:22px;
+	background-image:url(../images/icons/rafineri-kimyasallari.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#SondajKimyasallariImg {
+	height:70px;
+	margin-top:22px;
+	background-image:url(../images/icons/sondaj-kimyasallari.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#OzelKimyasallariImg {
+	height:84px;
+	margin-top:22px;
+	background-image:url(../images/icons/ozel-kimyasallar.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#AkaryakitKatkilariImg {
+	height:61px;
+	margin-top:25px;
+	background-image:url(../images/icons/sentetik-ve-baz-yaglar.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#MarkerBoyalariImg {
+	height:56px;
+	margin-top:12px;
+	background-image:url(../images/icons/akaryakit-biyodizel-katkilari.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#SentetikBazYaglarImg {
+	height:80px;
+	margin-top:29px;
+	background-image:url(../images/icons/marker-ve-lubrikant-boyalari.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#BitmisUrunlerImg {
+	height:69px;
+	margin-top:20px;
+	background-image:url(../images/icons/bitmis-urunler.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#SavunmaSanayiImg {
+	height:72px;
+	background-image:url(../images/icons/savunma-sanayi-icin-yaglar.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+.UrunDetayLeftTitle {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:#FFF;
+	font-weight:bold;
+	padding-top:10px;
+}
+
+.UrunDetayRight {
+	width:393px;
+	height:278px;
+	float:left;
+	position:relative;
+	top:43px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#ffffff;
+	line-height:7px;
+	xfont-weight:bold;
+}
+
+.UrunDetayRight li {
+	font-family:Arial, Helvetica, sans-serif;
+	height:20px;
+	xfont-size:14px;
+	font-size:15px;
+	color:#ffffff;
+	line-height:17px;
+	xfont-weight:bold;
+	list-style-type:none;
+	background-image:url(../images/icon_bg.png);
+	background-repeat:no-repeat;
+	padding-left:25px;
+	background-position:left 5px;
+	margin-left:18px;
+}
+
+#UrunDetayRightBitmisUrunler {
+	position:relative;
+	top:-25px;
+}
+
+#UrunDetayDrillingPart1{
+	float:left;
+	position:relative;
+	top:-51px;
+	width:211px;
+}
+
+#UrunDetayDrillingPart2 {
+	float:right;
+	width:180px;
+	position:relative;
+	top:-51px;
+	left:26px;
+}
+
+#UrunDetayDrilling-En-Part1{
+	float:left;
+	position:relative;
+	top:-58px;
+	width:211px;
+}
+
+#UrunDetayDrilling-En-Part2 {
+	float:right;
+	width:180px;
+	position:relative;
+	top:-58px;
+	left:26px;
+}
+
+.UrunDetayRightText {
+	position:relative;
+	top:20px;
+}
+
+#UrunDetaySpecialty {
+	position:relative;
+	top:40px;
+}
+#UrunDetaySpecialty li a {
+	color:#FFF;
+	text-decoration:none;
+}
+#UrunDetaySpecialty li a:hover {
+	text-decoration:underline;
+}
+#UrunDetayRightFuels {
+	position:relative;
+	top:28px;
+}
+
+#UrunDetayRightDyes {
+	position:relative;
+	bottom:25px;
+}
+
+#UrunDetayRightSynhetic {
+	position:relative;
+	top:42px;
+}
+#UrunDetayRightSynhetic li a {
+	color:#FFF;
+	text-decoration:none;
+}
+#UrunDetayRightSynhetic li a:hover {
+	text-decoration:underline;
+}
+#UrunDetayRightAutomotive {
+	position:relative;
+	top:30px;
+}
+
+#UrunDetayRightDefence {
+	position:relative;
+	top:29px;
+}
+#UrunDetayRight span {
+	position:relative;
+	left:-20px;
+	font-weight:bold;
+}
+
+/*# CONTENTS #*/
+
+#ContainerSummary {
+	overflow:hidden;
+	width:1047px;
+	xheight:698px;
+	height:0px;
+	padding-left:33px;
+	margin:0px auto;
+	position:relative;
+	top:159px;
+}
+
+.ContainerTitle {
+	width:305px;
+	height:39px;
+	font-family: 'avantgardeturkbregular';
+	font-size:36px;
+	color:#ffffff;
+	float:left;
+	clear:both;
+	padding-right:20px;
+	margin-top:-7px;
+}
+
+#ContainerKilometreTitle {
+	width:338px;
+	height:39px;
+	font-family: 'avantgardeturkbregular';
+	font-size:36px;
+	color:#ffffff;
+	float:left;
+	clear:both;
+	padding-right:20px;
+	margin-top:30px;
+}
+
+.ContainerText {
+	width:580px;
+	height:150px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	xfont-size:12px;
+	font-size:13px;
+	font-weight:bold;
+	line-height:17px;
+	color:#ffffff;
+	xmargin-bottom:55px;
+	margin-bottom:160px;
+}
+
+
+.ContainerText li {
+	list-style-type:none;
+	background-image:url(../images/icon_bg.png);
+	background-repeat:no-repeat;
+	padding-left:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	xfont-size:12px;
+	font-size:13px;
+	color:#ffffff;
+	line-height:22px;
+	background-position:left 5px;
+}
+
+#VizyonText {
+	font-family:Arial, Helvetica, sans-serif;
+	xfont-size:14px;
+	font-size:15px;
+	font-weight:bold;
+	line-height:20px;
+	color:#ffffff;
+	margin-bottom:48px;
+}
+#MilesTonesContent {
+}
+
+#MilesTonesContainer {
+	height:66px;
+	clear:both;
+	background-repeat:no-repeat;
+	background-image:url(../images/timeline_bg.png);
+	background-position:left bottom;
+	position:relative;
+	margin-bottom:20px;	
+}
+
+#MilesTonesContainer {}
+#MilesTonesContainer a {
+	font-family: 'avantgardeturkbregular';
+	font-size:15px;
+	color:#292727;
+	text-decoration:none;
+	position:relative;
+	top:16px;
+	padding-bottom:22px;
+	display:block;
+	float:left;
+	padding-top:5px;
+}
+
+#MilesTonesContainer a:hover,
+#MilesTonesContainer a.Selected {
+	color:#ffffff;
+}
+
+#MilesTonesContainer .year1977 {}
+#MilesTonesContainer .year1990 {
+	position:relative;
+	left:25px;
+}
+
+#MilesTonesContainer .year1993 {
+	position:relative;
+	left:53px;
+}
+
+#MilesTonesContainer .year1994 {
+	position:relative;
+	left:81px;
+}
+
+#MilesTonesContainer .year1995 {
+	position:relative;
+	left:116px;
+}
+
+#MilesTonesContainer .year1996 {
+	position:relative;
+	left:150px;
+}
+
+#MilesTonesContainer .year1998 {
+	position:relative;
+	left:183px;
+}
+
+#MilesTonesContainer .year1999 {
+	position:relative;
+	left:222px;
+}
+
+#MilesTonesContainer .year2004 {
+	position:relative;
+	left:290px;
+}
+
+#MilesTonesContainer .year2006 {
+	position:relative;
+	left:343px;
+}
+
+#MilesTonesContainer .year2012 {
+	position:relative;
+	left:542px;
+}
+
+#MilestonesYearsContainer {
+	min-height: 120px;
+}
+
+.MilesTonesYears {
+	font-family:Arial, Helvetica, sans-serif;
+	xfont-size:12px;
+	font-size:13px;
+	line-height:22px;
+	font-weight:bold;
+	color:#FFF;
+	padding-bottom:20px;
+	display: none;
+}
+
+#ContainerTimLineSummary {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#ffffff;
+	margin-bottom:50px;
+}
+
+#HizmetlerimizSummary {
+	overflow:hidden;
+	width:760px;
+	xheight:430px;
+	height:0px;
+	margin:0px auto;
+	position:relative;
+	top:75px;
+
+}
+
+#HizmetlerimizTitle {
+	width:253px;
+	font-family: 'avantgardeturkbregular';
+	font-size:36px;
+	color:#ffffff;
+	float:left;
+	padding-right:25px;
+}
+
+#HizmetlerimizRight {
+	width:480px;
+	height:333px;
+	float:left;
+	border-left:1px solid #f95659;
+}
+
+.HizmetlerimizSubtitle {
+	font-family:Arial, Helvetica, sans-serif;
+	xfont-size:17px;
+	font-size:18px;
+	font-weight:bold;
+	color:#ffffff;
+	margin-left:18px;
+	margin-bottom:11px;
+}
+
+.HizmetlerimizText {
+	width:435px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#ffffff;
+	margin-bottom:17px;
+}
+
+.HizmetlerimizText li {
+	list-style-type:none;
+	background-image:url(../images/icon_bg.png);
+	background-repeat:no-repeat;
+	padding-left:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	xfont-size:12px;
+	font-size:13px;
+	font-weight:bold;
+	color:#ffffff;
+	line-height:20px;
+	background-position:left 5px;
+	margin-left:18px;
+}
+
+#Offices {
+	width:1047px;
+	height:445px;
+	padding-left:35px;
+	margin:0px auto;
+	position:relative;
+	padding-top:35px;
+}
+#HomeOffice {
+	width:964px;
+	height:195px;
+	padding-bottom:78px;
+	border-bottom:1px solid #626e86;
+}
+#HomeOfficeTitle {
+	font-family: 'avantgardeturkbregular';
+	font-size:20px;
+	color:#ffffff;
+	margin-bottom:24px;
+}
+
+.HomeOfficeContact {
+	width:305px;
+	height:110px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-height:20px;
+	color:#FFFFFF;
+}
+
+.HomeOfficeAddress {
+	margin-bottom:17px;
+}
+
+.HomeOfficeAddress a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.HomeOfficeAddress span{
+	font-weight:bold;
+
+}
+
+.HomeOfficeTelephoneFax {}
+
+.HomeOfficeTelephoneFax span {
+	font-weight:bold;
+}
+
+#InternationalOffice {
+	width:964px;
+	height:250px;
+	float:left;
+}
+
+#InternationalOfficeTitle {
+	font-family: 'avantgardeturkbregular';
+	font-size:20px;
+	color:#ffffff;
+	margin-bottom:24px;
+	margin-top:22px;
+	
+}
+
+.InternationalOfficeContact {
+	width:220px;
+	height:220px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#FFFFFF;
+	padding-right:20px;
+	
+}
+
+.GlobalFlag {
+	margin-bottom:15px;
+}
+
+.InternationalOfficeAdressTitle {
+	font-size:15px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.InternationalOfficeAdressSummary {
+	margin-bottom:20px;
+}
+.InternationalOfficeAdressSummary span {
+	font-weight:bold;
+}
+
+.InternationalOfficeAdressSummary a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#FFFFFF;
+	text-decoration:none;
+	
+}
+
+.InternationalTelephoneFax {}
+.InternationalTelephoneFax span {
+	font-weight:bold;
+}
+
+#BottomPart {
+	position:relative;
+	width:100%;
+	height:749px;
+	background-image:url(../images/bottom_part.jpg);
+	background-repeat:repeat-x;
+	background-position:top center;
+}
+
+#BottomPartLogo {
+	width:98px;
+	height:75px;
+	float:left;
+	position:absolute;
+	left:0px;
+	bottom:53px;
+	margin-left:41px;
+}
+
+#BottomPartContainer {
+	position:relative;
+	width:1100px;
+	height:139px;
+	margin:0px auto;
+	margin-top:123px;
+	position: relative;
+}
+.SotkaLogo {
+	position:absolute;
+	right:10px;
+	top:8px;
+}
+#BottomPartMenu {
+	width:382px;
+	float:left;
+	padding-top:33px;
+}
+
+#BottomPartMenu ul{
+	margin:0px;
+	padding:0px;
+}
+
+#BottomPartMenu ul li{
+	float:left;
+	list-style-type:none;
+}
+#BottomPartMenu ul li a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#a80e14;
+	text-decoration:none;
+	padding-left:13px;
+}
+
+#BottomPartText {
+	width:470px;
+	float:right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#a80e14;
+	padding-top:15px;
+}
+
+.BaseOilTablo-btn {
+	position:absolute;
+	top:241px;
+	left:261px;
+	z-index:9;
+	display:block;
+	width:154px;
+	height:46px;
+	background-image:url(../images/base-oil_btn.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+.BaseOilTablo-btn:hover {
+
+	background-position:left -46px;
+}
+.BaseOilTablo-btn:active { background-position:left -92px; }
+.BaseOilTablo-btn.TR {
+	position:absolute;
+	top:241px;
+	left:261px;
+	z-index:9;
+	display:block;
+	width:154px;
+	height:46px;
+	background-image:url(../images/base-oil_btn_tr.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+.BaseOilTablo-btn.TR:hover {
+
+	background-position:left -46px;
+}
+.BaseOilTablo-btn.TR:active { background-position:left -92px; }
+
+
+
+
+
+
+
